@@ -1,0 +1,11 @@
+ID_ENDERECO,TIPO_LOGRADOURO,LOGRADOURO,BAIRRO,CIDADE,ESTADO,GEOLOCALIZACAO,ST_AsText(geolocalizacao)
+12,Avenida,"Nossa Senhora do Rosario",Xucurus,"Palmeira dos Índios",Alagoas,...,"POINT(-9.41444 -36.61866)"
+19,Beco,"da Rocheira","Albufeira e Olhos de Água",Albufeira,"Portugal Continental",...,"POINT(37.1017 -8.25448)"
+84,Rua,"do Sol","Santa Efigênia",Capela,Alagoas,...,"POINT(-9.27337 -36.14081)"
+95,Rua,"Eutiquio Lopes",Planalto,Arapiraca,Alagoas,...,"POINT(-9.72277 -36.65995)"
+96,Rua,"Fausto Calumby","nao encontrado",Coruripe,Alagoas,...,"POINT(-10.12884 -36.17475)"
+112,Rua,"H Joaquim Inacio Barbosa","Ponta Grossa",Maceió,Alagoas,...,"POINT(-9.65853 -35.76389)"
+130,Rua,"Motorista Izaura Cunha","Setor Morada do Sol","Rio Verde",Goiás,...,"POINT(-17.79484 -50.94705)"
+133,Rua,"Nossa Senhora Auxiliadora","Setor Central","Aparecida de Goiânia",Goiás,...,"POINT(-16.8227 -49.2464)"
+141,Rua,"Perofessora Sonia Maria Sales","São José do Rio Preto G","São José do Rio Preto","São Paulo",...,"POINT(-20.76182 -49.37983)"
+147,Rua,"Professora Rosa Maria Menezes de Franca",Malvinas,"Campina Grande",Paraíba,...,"POINT(-7.23045 -35.93144)"
