@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Raspador de Dados</h1>
+<h1 style="text-align: center;">Refinador</h1>
 
 ![a versão atual do projeto é 1.0](https://img.shields.io/badge/Versão-1.0-279)
 ![feito em python](https://img.shields.io/badge/Linguagem-Python-321)
