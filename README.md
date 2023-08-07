@@ -4,7 +4,7 @@
 ![feito em python](https://img.shields.io/badge/Linguagem-Python-321)
 ![utilizado banco mysql](https://img.shields.io/badge/SGBD-MySQL-244)
 
- Continuação do projeto de atividade curricular, esse programa se utiliza dos dados recolhidos no programa de Scraping, com objetivo de retirar informações sobre crime e local ocorridos. 
+ Continuação do projeto de atividade curricular, esse programa se utiliza dos dados recolhidos no programa de Scraping, com objetivo de retirar informações sobre crime e local ocorridos.
 
  [Programa de Raspagem](https://github.com/johnyjunior123/ScrapingACE4)
 
@@ -33,8 +33,6 @@ ___
 
 <h2>Utilizando o programa</h2>
 
-
-
 >No momento o programa não possuí GUI ou utilização de API, então a utilização é através do controller no arquivo app.py
 
 ~~~python 
@@ -60,5 +58,9 @@ ___
 
 <h2>Tarefas em desenvolvimento</h2>
 
-- [ ] Criar equivalencia nos tokens do arquivo crimes.py reduzindo a quantidade de tokens semelhantes.
+- [ x ] Criar equivalencia nos tokens do arquivo crimes.py reduzindo a quantidade de tokens semelhantes.
+
+> Foi criado os dados de equivalencia na diretorio ./data/crimes.py
+
+- [ ] Criar função de atualização de campo crimes no banco de dados com base na equivalencia
 - [ ] Melhorar o grau de acerto no tratamento da função conectarNoticiaEmEndereco.
