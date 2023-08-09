@@ -1,7 +1,7 @@
 import sys
 sys.path.insert(0,"../")
 from src.atualizarbd import atualizarCrimes, atualizarEnderecos
-from models.ConectorMySql import Conector
+from models.Conector import Conector
 
 class Controller:
     

@@ -2,10 +2,10 @@ import sys
 sys.path.insert(0, "../../")
 
 from script.apigeolocalizacao.tomtom import geocode
-from config.mysql import enderecos, config
+from config.config import enderecos, config
 import pandas as pd
 from models.Endereco import Endereco
-from models.ConectorMySql import Conector
+from models.Conector import Conector
 from data.inserts import insertEndereco
 
 def criarDataFrame(enderecos, conector):
