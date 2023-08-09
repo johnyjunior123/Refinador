@@ -2,14 +2,14 @@ equivalencia = [
     {"roubo" : ["roubo", "roubar", "roubado", "roubada", "assalto", "veículo levado", "locomoção levado", "assaltantes"]},
     {"furto" : ["furto", "furtar", "furtad",]},
     {"homicídio" : ["assassinato", "assassinad", "assassinados", "homicídio", "encontraram um corpo", "encontrando o cadáver", "baleado" , "acusado de matar", "morte","morta","morto", "encontrada mort", "óbito"]},
-    {"estrupo" : ["estrupo", "acusado de estuprar"]},
+    {"estupro" : ["estrupo", "acusado de estuprar"]},
     {"sequestro" : ["sequestro", "desaparecimento", "desaparecido", "desapareceu"]},
     {"tentativa de homicídio" : ["agressão", "tentativa de homicídio", "agressão fisica", "tentativa de matar", "lesão corporal", "atentado", "ameaçar", "violência física", "troca de tiros", "disparo da arma de fogo", "disparos de arma de fogo", "acusado de agre"]},
     {"tráfico de drogas" : ["tráfico de drogas", "entorpecente", "crack", "maconha", "cocaína"]},
     {"estelionato" : ["estelionato", "golpe", "apropriação indébita"]},
     {"suicídio" : ["suicídio", "tentado contra sua vida"]},
     {"violencia contra mulher" : ["maria da penha", "agredir a própria esposa", "violência doméstica", "violência contra mulher", "agredida"]},
-    {"assédio" : ["assedi",]},
+    {"assédio" : ["assédio","assédi"]},
     {"violência sexual" : ["violência sexual", "abuso infantil", "abuso",]},
     {"maus-tratos" : ["maus-tratos", "animais silvestres"]},
     {"acidente de trânsito" : ["atropelad", "acidente de trânsito", "embriagado"]},
@@ -23,11 +23,36 @@ equivalencia = [
 
 crimes = [
     "roubo", 
+    "furto", 
+    "homicídio", #
+    "estupro", #
+    "sequestro", #
+    "tentativa de homicídio", #
+    "tráfico de drogas", #
+    "estelionato", #
+    "violência sexual",#
+    "suicídio", #
+    "violência contra mulher", #
+    "maria da penha", #
+    "assédio",#
+    "assédi",
+    "maus-tratos", #
+    "acidente de trânsito", #
+    "vandalismo", #
+    "Disseminar fake news", #
+    "porte irregular de arma de fogo", #
+    "pensão alimentícia", #
+    "mandado de prisão em aberto", #
+    "desobedecerem uma ordem policial", #
+    "abuso infantil", #
+    "tentativa de matar", #
+    "entorpecente", #
+    "agredir a própria esposa", #
+    "violência doméstica", #
     "roubar", 
     "roubado", 
     "roubada", 
     "assalto", #
-    "furto", 
     "furtar", 
     "furtad", #
     "atropelad", #
@@ -35,38 +60,20 @@ crimes = [
     "assassinato",
     "assassinado",
     "assassinados", #
-    "maria da penha", #
-    "tráfico de drogas", #
-    "sequestro", #
-    "estrupo", #
-    "violência sexual",#
-    "assedi",#
     "dano a propriedade", #
-    "acidente de trânsito", #
-    "tentativa de homicídio", #
-    "homicídio", #
-    "vandalismo", #
     "agressão fisica", #
-    "abuso infantil", #
     "abuso", #
-    "tentativa de matar", #
-    "entorpecente", #
-    "estelionato", #
     "denunciação caluniosa", #
-    "porte irregular de arma de fogo", #
     "desaparecimento", #
     "golpe", #
     "lesão corporal", #
-    "confusão generalizada", #
-    "agredir a própria esposa", #
-    "suicídio", #
-    "violência doméstica", #
     "embriagado", #
     "atentado", #
     "ameaçar", #
     "violência física", #
     "encontraram um corpo", #
     "troca de tiros", #
+    "confusão generalizada", #
     "crack", #
     "cocaína", #
     "encontrando o cadáver", #
@@ -74,21 +81,16 @@ crimes = [
     "baleado", #
     "acusado de estuprar", #
     "acusado de matar", #
-    "maus-tratos", #
     "apologia ao crime", #
-    "Disseminar fake news", #
-    "pensão alimentícia", #
     "disparo da arma de fogo", #
     "disparos de arma de fogo", #
     "invadir", #
     "locomoção levado", #
     "desaparecido", #
-    "mandado de prisão em aberto", #
     "morte", #
     "morta", #
     "morto", #
     "perturbação do sossego", #
-    "desobedecerem uma ordem policial", #
     "ataque a escola", #
     "encontrada mort", #
     "desacat", #
@@ -99,7 +101,6 @@ crimes = [
     "tentar matar", #
     "animais silvestres", #
     "óbito", #
-    "violência contra mulher", #
     "apropriação indébita", #
     "agredida", #
     "tentado contra sua vida", #
