@@ -5,7 +5,7 @@ equivalencia = [
     {"estupro" : ["estrupo", "acusado de estuprar"]},
     {"sequestro" : ["sequestro", "desaparecimento", "desaparecido", "desapareceu"]},
     {"tentativa de homicídio" : ["agressão", "tentativa de homicídio", "agressão fisica", "tentativa de matar", "lesão corporal", "atentado", "ameaçar", "violência física", "troca de tiros", "disparo da arma de fogo", "disparos de arma de fogo", "acusado de agre"]},
-    {"tráfico de drogas" : ["tráfico de drogas", "entorpecente", "crack", "maconha", "cocaína"]},
+    {"tráfico de drogas" : ["tráfico de drogas", "entorpecente", "crack", "cocaína"]},
     {"estelionato" : ["estelionato", "golpe", "apropriação indébita"]},
     {"suicídio" : ["suicídio", "tentado contra sua vida"]},
     {"violencia contra mulher" : ["maria da penha", "agredir a própria esposa", "violência doméstica", "violência contra mulher", "agredida"]},
@@ -20,6 +20,7 @@ equivalencia = [
     {"mandato em aberto" : ["mandado de prisão em aberto"]},
     {"desobediência" : ["desobedecerem uma ordem policial", "desacat"]}
 ]
+keys = ["roubo", "furto", "homicídio", "estupro", "sequestro", "tentativa de homicídio", "tráfico de drogas", "estelionato", "suicídio", "violencia contra mulher", "assédio", "violência sexual", "maus-tratos", "acidente de trânsito", "vandalismo", "fake-news", "porte de armas", "pensão alimentícia", "mandato em aberto", "desobediência"]
 
 crimes = [
     "roubo", 
@@ -105,11 +106,8 @@ crimes = [
     "agredida", #
     "tentado contra sua vida", #
 ]
-
+print(len(crimes))
 # atualização do banco
 # a 1º atualização através dos 30 primeiros tokens
 # a 2º através dos 45
 # a 3º através dos 66
-
-print(len(equivalencia))
-print(len(crimes))
