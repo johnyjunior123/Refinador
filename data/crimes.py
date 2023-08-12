@@ -1,10 +1,10 @@
 equivalencia = [
     {"roubo" : ["roubo", "roubar", "roubado", "roubada", "assalto", "veículo levado", "locomoção levado", "assaltantes"]},
     {"furto" : ["furto", "furtar", "furtad",]},
-    {"homicídio" : ["assassinato", "assassinad", "assassinados", "homicídio", "encontraram um corpo", "encontrando o cadáver", "baleado" , "acusado de matar", "morte","morta","morto", "encontrada mort", "óbito"]},
+    {"homicídio" : ["assassinato", "assassinad", "assassinado", "assassinados", "homicídio", "encontraram um corpo", "encontrando o cadáver", "baleado" , "acusado de matar", "morte","morta","morto", "encontrada mort", "óbito"]},
     {"estupro" : ["estrupo", "acusado de estuprar"]},
     {"sequestro" : ["sequestro", "desaparecimento", "desaparecido", "desapareceu"]},
-    {"tentativa de homicídio" : ["agressão", "tentativa de homicídio", "agressão fisica", "tentativa de matar", "lesão corporal", "atentado", "ameaçar", "violência física", "troca de tiros", "disparo da arma de fogo", "disparos de arma de fogo", "acusado de agre"]},
+    {"tentativa de homicídio" : ["agressão", "tentativa de homicídio", "agressão fisica", "tentar matar", "tentativa de matar", "lesão corporal", "atentado", "ameaçar", "violência física", "troca de tiros", "disparo da arma de fogo", "disparos de arma de fogo", "acusado de agre"]},
     {"tráfico de drogas" : ["tráfico de drogas", "entorpecente", "crack", "cocaína"]},
     {"estelionato" : ["estelionato", "golpe", "apropriação indébita"]},
     {"suicídio" : ["suicídio", "tentado contra sua vida"]},
