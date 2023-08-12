@@ -4,10 +4,7 @@ class Conector:
     
     def __init__(self, config):
         try:
-            self.conexao = psycopg2.connect(user="postgres",
-                                            password="demon123",
-                                            host="127.0.0.1",
-                                            database="noticias")
+            self.conexao = psycopg2.connect(user=config[0], password=config[1],host=config[2],database=config[3])
             print('Conexão com Sucesso')
         except psycopg2.Error as error:
             print(error)

@@ -1,6 +1,5 @@
 import sys
-sys.path.insert(0,"C:\\Users\\GAMEPLAI\\Documents\\Faculdade\\ACE4\\Refinador")
-from src.atualizarbd import atualizarCrimes, atualizarEnderecos, equivalenciaCrimes
+sys.path.insert(0, "C:\\Users\\GAMEPLAI\\Documents\\Faculdade\\ACE4\\Refinador")
 from data.queries.consults import consultCrimeBruto, consultEnderecoBruto, consultEnderecos, consultEnderecoLograd
 from data.queries.update import updateCrime, updateEndereco, updateEquivalence
 from models.Conector import Conector

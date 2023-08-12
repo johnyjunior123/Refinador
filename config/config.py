@@ -1,8 +1,3 @@
-config = {
-    "user" : "postgres",
-    "password" : "demon123",
-    "host" : "127.0.0.1",
-    "database" : "noticias"
-}
-enderecos = "../data/enderecos.xlsx"
+config = ["postgres", "demon123", "127.0.0.1", "noticias"]
 
+enderecos = "../data/enderecos.xlsx"
