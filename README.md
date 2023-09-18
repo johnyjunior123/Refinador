@@ -12,11 +12,9 @@
 
 Primeiro será necessário a instalação das bibliotecas do python utilizado no programa:
 
-```pip install urllib3```
-```pip install pandas```
-```pip install psycopg2```
+```pip install -r requeriments.txt```
 
-> importar o Schema com as tabelas atuais no postgree 
+> importar o Schema com as tabelas atuais no postgree
 
 <div style="text-align: center"><a src="https://drive.google.com/drive/folders/17FiCBgn4QvJjCM0ulZJEz3kRCnrYO5Pa?usp=sharing">Banco de Dados</a></div>
 <br>

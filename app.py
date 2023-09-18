@@ -4,6 +4,7 @@ from data.crimes import crimes, keys, equivalencia
 
 controller = Controller(config, crimes)
 
-controller.atualizarCrimes()
+# controller.atualizarCrimes(crimes)
 controller.atualizarEnderecos()
-controller.equivalencia(equivalencia, keys)
+controller.atualizarEnderecosParte2()
+# controller.equivalencia(equivalencia, keys)

@@ -19,11 +19,26 @@ class Controller:
         print('Concluido com sucesso\n')
 
     def atualizarEnderecos(self): #O(n²)
+        print("\nIniciando relacionamento entre endereço e noticia...\n")
         enderecos = self.conector.consulta(consultEnderecos())
         for endereco in enderecos: 
             itens = self.conector.consulta(consultEnderecoBruto(endereco[1], endereco[2]))
             for item in itens:
                 self.conector.inserir(updateEndereco(endereco[0],item[0]))
+                print(f'atualizado {endereco[0]} em {item[0]}')
+        print('\nsucesso - relacionamento entre endereços e noticia efetuado\n')
+
+    def atualizarEnderecosParte2(self):
+        print("\nIniciando relacionamento entre endereço e noticia...\n")
+        enderecos = self.conector.consulta(consultEnderecos())
+        for endereco in enderecos: 
+            try:
+                itens = self.conector.consulta(consultEnderecoLograd(endereco[2]))
+                for item in itens:
+                    self.conector.inserir(updateEndereco(endereco[0],item[0]))
+                    print(f'atualizado {endereco[0]} em {item[0]}')
+            except:
+                print('error')
         print('\nsucesso - relacionamento entre endereços e noticia efetuado\n')
 
     def equivalencia(self, tabelaEquivalencia, keys):

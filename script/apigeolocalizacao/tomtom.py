@@ -24,3 +24,5 @@ def tratamento(json):
             print(json['results'][0]['address'])
     dadosComplementares.append(position)
     return dadosComplementares
+
+print(geocode('povoado itaporanga ,penedo al'))

@@ -1,14 +1,19 @@
 def consultNoticiaBruta():
-    return f"SELECT * FROM NOTICIA WHERE (URL LIKE '%PENEDO%' OR DESCRICAO LIKE '%PENEDO%');"
+    return f"SELECT * FROM NOTICIA WHERE (URL ILIKE '%PENEDO%' OR DESCRICAO ILIKE '%PENEDO%');"
 
 def consultCrimeBruto(crime):
-    return f"SELECT URL FROM NOTICIA WHERE (URL LIKE '%Penedo%' OR DESCRICAO LIKE '%Penedo%') AND DESCRICAO LIKE '%{crime}%';"
+    return f"SELECT URL FROM NOTICIA WHERE (URL ILIKE '%Penedo%' OR DESCRICAO ILIKE '%Penedo%') AND DESCRICAO ILIKE '%{crime}%';"
 
 def consultEnderecoBruto(tipo, endereco):
-    return f"SELECT URL FROM NOTICIA WHERE (URL LIKE '%Penedo%' OR DESCRICAO LIKE '%Penedo%') AND DESCRICAO LIKE '%{tipo} {endereco}%';"
+    if(len(endereco) == 1):
+        return f"SELECT URL FROM NOTICIA WHERE (URL ILIKE '%Penedo%' OR DESCRICAO ILIKE '%Penedo%') AND (DESCRICAO ILIKE '%{tipo} {endereco} %' OR DESCRICAO ILIKE '%{tipo} {endereco},%' OR DESCRICAO ILIKE '%{tipo} {endereco}.%');"
+    return f"SELECT URL FROM NOTICIA WHERE (URL ILIKE '%Penedo%' OR DESCRICAO ILIKE '%Penedo%') AND DESCRICAO ILIKE '%{tipo} {endereco}%';"
 
 def consultEnderecoLograd(logradouro):
-    return f"SELECT URL FROM NOTICIA WHERE (URL LIKE '%Penedo%' OR DESCRICAO LIKE '%Penedo%') AND DESCRICAO LIKE '%{logradouro}%';"
+    if(len(logradouro) == 1):
+        # return f"SELECT URL FROM NOTICIA WHERE (URL ILIKE '%Penedo%' OR DESCRICAO ILIKE '%Penedo%') AND (DESCRICAO ILIKE '% {logradouro} %' OR DESCRICAO ILIKE '%{logradouro},%' OR DESCRICAO ILIKE '%{logradouro}.%') AND ID_ENDERECO IS NULL;"
+        return KeyError
+    return f"SELECT URL FROM NOTICIA WHERE (URL ILIKE '%Penedo%' OR DESCRICAO ILIKE '%Penedo%') AND DESCRICAO ILIKE '% {logradouro}%' AND ID_ENDERECO IS NULL;"
 
 def consultEnderecos():
     return f"SELECT ID_ENDERECO, TIPO_LOGRADOURO, LOGRADOURO FROM ENDERECOS;"

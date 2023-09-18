@@ -32,6 +32,3 @@ def criarEndereco(tipo, logradouro):
         dadosComplementares[1],
         dadosComplementares[2],
         dadosComplementares[3])
-
-conector = Conector(config)
-criarDataFrame(enderecos, conector)
